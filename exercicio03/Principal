@@ -1,0 +1,9 @@
+public class Principal {
+    public static void main(String[] args) {
+        DeliveryContext context = new DeliveryContext();
+
+        context.strategy(new DeliveryExpress());
+        double expressPrice = context.calcularFrete(100);
+        System.out.println("Frete expresso: " + expressPrice);
+    }
+}
