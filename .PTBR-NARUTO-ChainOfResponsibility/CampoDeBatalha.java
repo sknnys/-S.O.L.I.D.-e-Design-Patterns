@@ -3,13 +3,15 @@ public class CampoDeBatalha {
         Naruto genin = new Genin();
         Naruto chunin = new Chunin();
         Naruto jonin = new Jonin();
+        
 
         genin.proximoEscolhido(chunin);
         chunin.proximoEscolhido(jonin);
         
         System.out.println("----------");
 
-        genin.verificador("nivel1");
+        genin.verificador("avancado");
+
 
         System.out.println("----------");
 

@@ -9,7 +9,7 @@ public class PrincipalBatalha {
         
         System.out.println("----------");
 
-        genin.handlerRequest("nivel1");
+        genin.handlerRequest("nivel3");
 
         System.out.println("----------");
 

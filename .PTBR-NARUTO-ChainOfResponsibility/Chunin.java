@@ -8,7 +8,7 @@ public class Chunin implements Naruto {
 
     @Override
     public void verificador(String requisicao) {
-        if (requisicao.equals("nivel2")) {
+        if (requisicao.equals("medio")) {
             System.out.println("shuriiken e bola de fogo.");
         } else if (proximoEscolhido != null) {
             proximoEscolhido.verificador(requisicao);

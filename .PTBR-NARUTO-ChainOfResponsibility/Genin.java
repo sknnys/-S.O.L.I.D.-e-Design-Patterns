@@ -8,8 +8,8 @@ public class Genin implements Naruto {
 
     @Override
     public void verificador(String requisicao) {
-        if (requisicao.equals("nivel1")) {
-            System.out.println("só porradinha e kunai.");
+        if (requisicao.equals("basico")) { 
+            System.out.println("só porradinha e kunais.");
         } else if (proximoEscolhido != null){
             proximoEscolhido.verificador(requisicao);
         }

@@ -7,7 +7,7 @@ public class Jonin implements Naruto {
 }
 @Override 
 public void verificador(String requisicao) {
-    if (requisicao.equals("nivel3")) {
+    if (requisicao.equals("avancado")) {
         System.out.println("mangekyou sharingan, tsukuyomi, amaterasu, susano'o e os carai.");
     } else if (proximoEscolhido != null) {
         proximoEscolhido.verificador(requisicao);
