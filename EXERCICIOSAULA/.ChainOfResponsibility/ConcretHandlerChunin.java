@@ -13,5 +13,6 @@ public class ConcretHandlerChunin implements HandlerNaruto {
         } else if (nextHandler != null) {
             nextHandler.handlerRequest(request);
         }
+        throw 
     }
 }
